@@ -1,0 +1,8 @@
+﻿l_english:
+ FACTION_COUNTRY_SEPARATIST:0 "[parameter:owner.GetAdj] Separatists"
+
+ SUPPORT_EFFECT_LIBERATE_HAWKISH_REBELS_DESC:0 "The [Root.GetName] rises up against the milquetoast [Root.Owner.GetAdj] government."
+
+ faction.102.desc:1 "The [Root.GetName] is in disarray following the sudden death of their leader, [Root.Leader.GetName].\n\nAs far as the [Root.Owner.GetAdj] public is concerned, this is the outcome of an internal power struggle within the [Root.GetName]. While another figurehead has already emerged, the incident has resulted in a loss of popular support."
+
+ faction.400.desc:0 "At some point, radical members of the [From.GetName] successfully infiltrated at least one [Root.Owner.GetAdj] military vessel to plant explosives. These explosives have now been detonated, destroying the entirety of the [Root.GetName].\n\n[From.Leader.GetName], leader of the [From.GetName], has issued a statement declaring this action to be demonstrative of the abhorrent nature of violence in general, and the [Root.Owner.GetName]'s armed conflict with the [From.parameter:enemy.GetName] in particular."

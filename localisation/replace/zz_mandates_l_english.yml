@@ -1,5 +1,4 @@
 ﻿l_english:
-
  MANDATE_mandate_emancipation2_DESC:1 "Free all slaves on at least one [Root.Owner.GetAdj] world.\n\nReward:\n$mandate_influence_reward_t3$\n$mandate_happiness_reward_t1$"
 
  MANDATE_mandate_shipwright_DESC:2 "Ensure the safety and security of the [Root.Owner.GetAdj] people by maintaining a fleet that's using at least 75% of our total Naval Capacity by the end of their reign.\n\nReward:\n$mandate_influence_reward_t5$"

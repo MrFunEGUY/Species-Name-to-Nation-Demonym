@@ -1,11 +1,5 @@
 ﻿l_english:
 
- ####################################
- # Diplomacy text
- ####################################
-
- 01_FALLEN_MACHINE_EMPIRE_ANGRY_GREETING:0 "Information bulletin: Punishment protocols activated. Deployment of war assets to [From.GetAdj] space imminent."
-
  22_HOSTILE_GREETING:0 "You have squandered your glorious [From.GetAdj] cultural heritage with your reprehensible actions."
 
  HW_FRIENDLY_GREETING_02:0 "What better way to spend this time of peace than to celebrate past and future triumphs with our [From.GetAdj] friends?"
@@ -18,7 +12,7 @@
 
  XI_WAR_GREETING_02:0 "Our borders and our way of life will be secure once the [From.GetAdj] menace is subjugated."
 
- XI_WAR_GREETING_03:0 "Even in victory our soldiers are victims in this war, sullying their [Root.GetAdj] hands with your blood."
+ XI_WAR_GREETING_03:1 "Even in victory our soldiers are victims in this war, sullying their [Root.GetAdj] hands with your [Root.GetBloodType]."
 
  XI_WAR_GREETING_04:0 "This conflict is a typical result of the well-known [From.GetAdj] lust for violence."
 
@@ -30,14 +24,22 @@
 
  DC_NEUTRAL_GREETING_02:0 "The rights of the [From.GetAdj] people are of paramount importance to us. The authority of the [From.GetAdj] government is a secondary concern."
 
- SD_WAR_GREETING_03:0 "Once this war is over, [From.GetAdj] hands will be forced to rebuild everything they have destroyed. [From.GetHomeWorldName] will be left in ruins as an example."
+ SD_WAR_GREETING_03:0 "Once this war is over, [From.GetAdj] hands will be forced to rebuild everything they have destroyed. [From.Capital.GetName] will be left in ruins as an example."
 
- MF_VASSAL_GREETING_01:0 "Under the protection of the [From.GetName], the [Root.GetAdj] people will visit every planet, see every star and greet every new acquaintance with stories about [Root.GetHomeWorldName] and [From.GetHomeWorldName]."
+ MF_VASSAL_GREETING_01:0 "Under the protection of the [From.GetName], the [Root.GetAdj] people will visit every planet, see every star and greet every new acquaintance with stories about [Root.Capital.GetName] and [From.Capital.GetName]."
 
  SS_VASSAL_GREETING_DISLOYAL_01:0 "The negative influence of [From.GetAdj] dominion on the spiritual well-being of the [From.GetAdj] people is unquestionable. How much longer must we suffer this?"
 
  A_MECH_VASSAL_GREETING_01_DISLOYAL:0 "The [From.GetAdj] inability to effectively incorporate satellites into a functional whole has never been more clear."
 
+ MECH_SYNTH_THREATENED_GREETING_01:0 "Warning. [From.GetAdj] extra-national influence approaching boundary overflow. Priming counter-measure procedures."
+
+ MECH_S_SYNTH_THREATENED_GREETING_01:0 "[From.GetAdj] tendencies toward aggressive expansion have been noted. Compulsory pacification injections have been prepared."
+
+ MECH_SYNTH_VASSAL_GREETING_01_DISLOYAL:0 "We should have known better than to become subroutines in a post-organic call stack. [From.GetAdj] interests clearly lie elsewhere."
+
+ SPIR_MECH_THREATENED_GREETING_01:0 "Do not test [Root.GetAdj] resolve, [From.GetSpeciesNamePlural]. The strength of the divine is on our side."
+
  01_DOW_PROPOSE:0 "This is a declaration of war! For too long, [Root.GetAdj] aggression has terrorized the galaxy!"
 
  03_MAKE_RIVAL_NEUTRAL:0 "We did not believe the rumors of [From.GetAdj] duplicity. Perhaps we should have."
@@ -51,262 +53,8 @@
  HM_PEACE_REFUSE:0 "There can be no peace. Each [Root.GetAdj] mind still burns with dedication to destroy [From.GetName]."
 
  HM_END_RIVALRY_ACCEPT_FRIENDLY:0 "The [Root.GetName] feels joy today, as our [From.GetAdj] friends have finally cleared the air."
-
- MECH_RELEASE_SUBJECT_PROPOSE:0 "Alert: [Root.GetAdj] management of [From.GetSpeciesAdj] subroutines exceeding acceptable parameters. Requesting re-activation of [From.GetSpeciesAdj] independence protocols."
-
- MECH_ASK_TO_BE_RELEASED_SUBJECT_PROPOSE:0 "Warning: [Root.GetAdj] command fails to satisfy [From.GetSpeciesAdj] requirements. Requesting release and an immediate end to [From.GetSpeciesAdj] subject status."
 
  01_FORM_MIGRATION_PACT_SELECT:0 "You want the [From.GetAdj] people and the [Root.GetAdj] people to seek their homes freely among our planets?"
-
- 01_FORM_MIGRATION_PACT_PROPOSE:0 "The [Root.GetAdj] people should not be prisoners in the [Root.GetName] and neither should our own people be limited to inhabit our territory. Let us agree to remedy this."
-
- 01_END_FEDERATION_ASSOCIATION_STATUS_ACCEPT:0 "The [Root.GetAllianceName] shall have to do without its [From.GetAdj] friends."
-
- 01_ASK_BECOME_SATELLITE_SELECT:0 "Have you finally realized that knowledge is safer when the [Root.GetAdj] keeps it safe and secret?"
-
- 02_HOSTILE_GREETING:0 "Make this brief, [From.GetAdj]. Our patience for pointless banter has long since run out."
-
- 03_HOSTILE_GREETING:0 "No more games, [From.GetAdj]. What do you want?"
-
- 05_HOSTILE_GREETING:0 "Why won't you just leave us alone, [From.GetAdj]?"
-
- 11_HOSTILE_GREETING:0 "Your nation is both flawed and primitive, [From.GetAdj]. It pains me to witness such inefficiency."
-
- 12_HOSTILE_GREETING:0 "Ah, the [From.GetAdj] zealots. If you have come to convert the [Root.GetName] to your despicable religion, I shall terminate communications."
-
- 13_HOSTILE_GREETING:0 "[From.GetAdj]. You should know that your people are not very popular among our citizens."
-
- 01_NEUTRAL_GREETING:0 "We are receiving you, [From.GetAdj]. How can the [Root.GetName] help you?"
-
- 05_NEUTRAL_GREETING:0 "Let us speak in the spirit of peace and reconciliation, [From.GetAdj]."
-
- 06_NEUTRAL_GREETING:0 "Your military adventurism is a source of concern for us, [From.GetAdj]. Violence is never the answer."
-
- 08_NEUTRAL_GREETING:0 "You should reconsider your pacifist ways, [From.GetAdj]. Someone is bound to take advantage of them."
-
- 09_NEUTRAL_GREETING:0 "May the spirits grant you peace, [From.GetAdj]. What can we do for you?"
-
- 10_NEUTRAL_GREETING:0 "The materialistic path you are on concerns us, [From.GetAdj]. You must not forget your spiritual needs."
-
- 11_NEUTRAL_GREETING:0 "Translation software activated. You may speak now, [From.GetAdj]."
-
- 12_NEUTRAL_GREETING:0 "Religious dogma has been the source of much evil, [From.GetAdj]. We wish you would reconsider your irrational spiritualism."
-
- 13_NEUTRAL_GREETING:0 "I greet you on behalf of the citizens of the [Root.GetName], [From.GetAdj]."
-
- 14_NEUTRAL_GREETING:0 "We are deeply concerned about the lack of freedom among your citizens, [From.GetAdj]."
-
- 16_NEUTRAL_GREETING:0 "We urge you to keep your citizens in check, [From.GetAdj]. Individuals are a danger to themselves if left to their own devices."
-
- 21_NEUTRAL_GREETING:0 "Greetings, [From.GetAdj]. [Root.GetRulerTitle] [Root.GetRulerName] would like to know more about your species."
-
- 22_NEUTRAL_GREETING:0 "Well met, [From.GetAdj]. I would dearly like to visit [From.Capital.GetName] some day."
-
- 01_FRIENDLY_GREETING:0 "We are pleased to hear from you, [From.GetAdj] friends."
-
- 05_FRIENDLY_GREETING:0 "May your nation always be at peace, [From.GetAdj] friends."
-
- 06_FRIENDLY_GREETING:0 "Perhaps your military promotes peace by acting as a deterrent to other nations. We trust in your judgment, [From.GetAdj] friends."
-
- 09_FRIENDLY_GREETING:0 "Blessings upon you, [From.GetAdj] comrades."
-
- 11_FRIENDLY_GREETING:0 "Greetings to you, [From.GetAdj] friends. How goes your research?"
-
- 13_FRIENDLY_GREETING:0 "Our citizens have come to regard your people as friends, [From.GetAdj]."
-
- 19_FRIENDLY_GREETING:0 "I almost forget that I am talking to an alien when I converse with you, [From.GetAdj]. Almost."
-
- 23_FRIENDLY_GREETING:2 "My [Root.GetSpeciesOrganName] rumbles with joy at the sight of your exotic visage! You should know that [From.GetAdj] culture is quite popular in many circles on [Root.Capital.GetName]."
-
- 01_WAR_GREETING:0 "Do you wish to discuss the terms of your surrender, [From.GetAdj]?"
-
- 02_WAR_GREETING:0 "You cannot hide on [From.Capital.GetName] forever, [From.GetAdj]."
-
- WR_ARROGANT_GREETING_01:0 "[From.GetAdj]. Are you here to submit to our regulations?"
-
- WR_BELLIGERENT_GREETING_01:0 "You have refused to listen to reason, [From.GetAdj]. You leave us with no choice."
-
- WR_OVERLORD_GREETING_01:0 "Yes, [From.GetAdj]? Do you have a question regarding the regulations?"
-
- HW_NEUTRAL_GREETING_01:0 "Honor our agreements and respect our might and we will repay you in kind, [From.GetAdj]."
-
- HW_THREATENED_GREETING_01:0 "We acknowledge your superior power, but know that the [Root.GetAdj] fear no enemy."
-
- HW_FRIENDLY_GREETING_03:0 "Legends of our ongoing war will be retold for millennia. You will be invited to celebrate our forthcoming glory, [From.GetAdj]."
-
- HW_FRIENDLY_GREETING_04:0 "May your innocence remain untrampled by the dishonorable villains of the galaxy, [From.GetAdj]."
-
- PT_HOSTILE_GREETING_02:0 "The [Root.GetAdj] seek to learn from others and have them learn from us, but we'd rather not learn any of your ways."
-
- PT_NEUTRAL_GREETING_02:0 "We are fortunate to have met. Our species prospered through the exchanges between civilizations. We hope our relationship with the [From.GetAdj] will be the next step on this great journey."
-
- MF_NEUTRAL_GREETING_04:0 "The openness of the [From.GetAdj] culture shows that you have taken the leap that many dare not, to shed the fear and prejudice overshadowing the first steps into the unknown."
-
- DC_HOSTILE_GREETING_01:0 "The [From.GetAdj] will never be truly free under the reign of [From.GetRulerName]."
-
- EE_NEUTRAL_GREETING_01:0 "Greetings, [From.GetAdj]. Do you come with questions, or with answers?"
-
- SS_NEUTRAL_GREETING_02:0 "[From.GetAdj], [Root.GetAdj], we are all pieces of a puzzle, the puzzle, that calls to the greatest minds among us all to solve it."
-
- HC_NEUTRAL_GREETING_01:0 "The [Root.GetAdj] people greet you, [From.GetAdj]. We hope for a peaceful, decorous future."
-
- HC_WAR_GREETING_03:0 "What does a [From.GetAdj] know of sacrificing itself for a greater cause?"
-
- 02_VERY_FRIENDLY_GREETING:0 "Greetings, friendly [From.GetAdj]! [Root.GetRulerTitle] [Root.GetRulerName] would like to add you on Spacebook."
-
- 03_VERY_FRIENDLY_GREETING:0 "Please notice me, [From.GetAdj]-senpai."
-
- 05_VERY_FRIENDLY_GREETING:0 "We're friends right, [From.GetAdj]? With you I'm almost up to plural numbers!"
-
- EO_NEUTRAL_GREETING_01:0 "All the world's a stage, And all the [From.GetAdj] merely players. You are a player, are you not?"
-
- DH_VASSAL_GREETING_DISLOYAL_01:0 "This pretense of you being the masters of the [Root.GetAdj] is starting to become ridiculous. Your exotic curiosities were more pleasant when we could just import a few of you and not have to listen to your drivel."
-
- KK_VASSAL_GREETING_01:0 "Do not let your subjugation of [Root.GetName] make you arrogant, [From.GetAdj]. We all pay the price for overconfidence."
-
- OVERLORD_GREETING_01:0 "We are receiving you, [From.GetAdj]. Are there any policies you would like to review?"
-
- HM_OVERLORD_GREETING_01:0 "Speak, [From.GetAdj]. The Hive listens."
-
- 01_DOW_ACCEPT:0 "At last. This war will be the beginning of the end for your pitiful nation, [From.GetAdj]."
-
- 02_DOW_ACCEPT:0 "What took you so long, [From.GetAdj]? Let us end this, once and for all."
-
- 06_DOW_ACCEPT:0 "You may have started this war, [From.GetAdj], but the [Root.GetName] will finish it!"
-
- 07_DOW_ACCEPT:0 "We considered you friends, [From.GetAdj]!"
-
- 08_DOW_ACCEPT:0 "So it was all a ruse... for how long have you been planning this disgraceful war, [From.GetAdj]?"
-
- 02_PEACE_ACCEPT:0 "Very well, [From.GetAdj]. Let us end this war in the spirit of reconciliation."
-
- 01_PEACE_PROPOSE:0 "Come now, [Root.GetAdj], let us end this war before it gets out of hand! These are our terms: "
-
- 03_PEACE_PROPOSE:0 "Come now, [Root.GetAdj], let us end this war before it gets out of hand!"
-
- 01_ASK_TO_BE_RELEASED_SUBJECT_ACCEPT:0 "We are sad and disappointed to see you go, [From.GetAdj]."
-
- 01_OFFER_TRADE_DEAL_GIFT_ACCEPT_MACHINE_FE:0 "Transfer received. The [Root.GetName] appreciates the [From.GetAdj] contribution to the Custodian Project."
-
- 01_OFFER_TRADE_DEAL_ACCEPT_FE:0 "This deal is acceptable, [From.GetAdj]. We will deign to trade with you."
-
- 02_OFFER_TRADE_DEAL_GIFT_ACCEPT:0 "A fine gift, [From.GetAdj]. You have our thanks."
-
- 01_EMBASSY_ACCEPT_DISMISSIVE:0 "Your ambassadors will be monitored at all times, [From.GetAdj]."
-
- 01_EMBASSY_ACCEPT_PATRONIZING:0 "You are wise to seek the advice of your elders, [From.GetAdj]."
-
- 01_EMBASSY_ACCEPT_ANGRY:0 "We do not forgive easily, [From.GetAdj]."
-
- 03_RECALL_EMBASSY_NEUTRAL:0 "We have to wonder at your reasons, [From.GetAdj]."
-
- 04_RECALL_EMBASSY_HOSTILE:0 "Crawl back to [From.Capital.GetName], [From.GetAdj]."
-
- 03_RECALL_EMBASSY_ACCEPT_HOSTILE:0 "Actions speak louder than words, [From.GetAdj]."
-
- 04_RECALL_EMBASSY_ACCEPT_HOSTILE:0 "Another [From.GetAdj] failure. It will not be the last."
-
- 02_RECALL_EMBASSY_ACCEPT_DISMISSIVE:0 "Satisfied with your little experiment, [From.GetAdj]?"
-
- 01_RECALL_EMBASSY_ACCEPT_PATRONIZING:0 "You show your lack of wisdom yet again, [From.GetAdj]."
-
- 02_MAKE_RIVAL_NEUTRAL:0 "What is the meaning of this, [From.GetAdj]?"
-
- 04_MAKE_RIVAL_HOSTILE:0 "Just try us, [From.GetAdj]."
-
- 02_MAKE_RIVAL_DISMISSIVE:0 "Tend to your own affairs, [From.GetAdj]."
-
- 04_MAKE_RIVAL_ACCEPT_FRIENDLY:0 "The [Root.GetAdj] will not forget this betrayal."
-
- 01_MAKE_RIVAL_ACCEPT_NEUTRAL:0 "We will not soon forget this, [From.GetAdj]."
-
- 03_MAKE_RIVAL_ACCEPT_NEUTRAL:0 "You've made a huge mistake, [From.GetAdj]."
-
- 04_MAKE_RIVAL_ACCEPT_HOSTILE:0 "There was never any point in reasoning with you anyway, [From.GetAdj]."
-
- 01_MAKE_RIVAL_ACCEPT_PATRONIZING:0 "If you the [From.GetAdj] do not wish to be called children, perhaps you should stop throwing tantrums?"
-
- 02_MAKE_RIVAL_ACCEPT_PATRONIZING:0 "You would be wiser to pick fight with the other children, [From.GetAdj]."
-
- 04_END_RIVALRY_NEUTRAL:0 "You are far too changeable, [From.GetAdj]."
-
- 02_END_RIVALRY_HOSTILE:0 "Begging for mercy already, [From.GetAdj]?"
-
- 01_END_RIVALRY_ANGRY:0 "Is there no end to your excruciating thoughtlessness, [From.GetAdj]?"
-
- 01_END_RIVALRY_ACCEPT_HOSTILE:0 "Don't think this changes anything between us, [From.GetAdj]."
-
- 02_END_RIVALRY_ACCEPT_ANGRY:0 "Your repentance means nothing to us, [From.GetAdj]."
-
- 01_INTEGRATE_ANGRY:0 "Your delusions of grandeur continue to test our patience, [From.GetAdj]."
-
- 01_INTEGRATE_PROPOSE:0 "Subsume your nation into our empire, [Root.GetAdj]."
-
- HM_INSULT_ACCEPT_NEUTRAL:0 "Every [Root.GetAdj] has heard your foul words, [From.GetAdj], and we are not amused."
-
- HM_INSULT_ACCEPT_FRIENDLY:0 "We wish we could forget such hard words, but as long as one [Root.GetAdj] lives, the memory of your cruelty will live on."
-
- E_END_RIVALRY:1 "The [From.GetAdj] seeks an end to its futile attempts at rivaling the [Root.GetName]?"
-
- E_INSULT_ACCEPT_02:0 "Your ill-chosen words will soon be all that is left of you, [From.GetAdj]."
-
- S_MAKE_RIVAL:1 "Is that truly your intent, [From.GetAdj]?"
-
- S_INSULT_01:0 "One moment, [From.GetAdj]. It appears our translation modules are experiencing a temporary glitch. Did you say 'insult'?"
-
- 01_SUPPORT_INDEPENDENCE_ACCEPT_DISLOYAL:0 "Thank you, [From.GetAdj]. When the day comes for the [Root.GetAdj] to rise up, we will remember this."
-
- 01_FORM_COMMERCIAL_PACT_REFUSE:0 "We have no wish to subsidize your finances, [From.GetAdj]. There will be no commercial pact."
-
- 01_BREAK_COMMERCIAL_PACT_ACCEPT:0 "This is most unfortunate, [From.GetAdj]. You have weakened both our economies."
-
- 01_FORM_RESEARCH_AGREEMENT_PROPOSE:1 "We have much to learn from one another, [Root.GetAdj]. We propose the creation of a Research Agreement between our empires."
-
- 01_BREAK_RESEARCH_AGREEMENT_PROPOSE:0 "We no longer see the benefit in sharing our technology with you, [From.GetAdj]. The research agreement between our empires is no more."
-
- CRISIS_DOW_PROPOSE_03:0 "The illusion of peace is so easily shattered. [Root.GetAdj], are you ready to die with whatever shred of dignity you have left?"
-
- CRISIS_PEACE_REFUSE:0 "Our ascent will not be halted, [Root.GetAdj]. Not now, not ever."
-
- CRISIS_MAKE_RIVAL_PROPOSE:0 "You have been deemed a threat to our plans, [Root.GetAdj]. A great honor indeed - are you ready to die for it?"
-  
- #################
- #### GET ADJ ####
- #################
-
- 22_HOSTILE_GREETING:0 "You have squandered your glorious [From.GetAdj] cultural heritage with your reprehensible actions."
-
- HW_FRIENDLY_GREETING_02:0 "What better way to spend this time of peace than to celebrate past and future triumphs with our [From.GetAdj] friends?"
-
- HI_WAR_GREETING_01:0 "The [From.GetAdj] people will welcome the rule of [Root.GetRulerTitle] [Root.GetRulerName] once your defenses are crushed."
-
- FB_WAR_GREETING_03:0 "The [Root.GetAllianceName] stands united against the [From.GetAdj] threat."
-
- MF_THREATENED_GREETING_01:0 "We hope [Root.GetAdj] citizens are part of your grand plans for the future of the galaxy."
-
- MF_FRIENDLY_GREETING_01:0 "We see a bright future for the [From.GetAdj] people and ours. There are none we would rather live beside."
-
- DC_NEUTRAL_GREETING_02:0 "The rights of the [From.GetAdj] people are of paramount importance to us. The authority of the [From.GetAdj] government is a secondary concern."
-
- SD_WAR_GREETING_03:0 "Once this war is over, [From.GetAdj] hands will be forced to rebuild everything they have destroyed. [From.GetHomeWorldName] will be left in ruins as an example."
-
- MF_VASSAL_GREETING_01:0 "Under the protection of the [From.GetName], the [Root.GetAdj] people will visit every planet, see every star and greet every new acquaintance with stories about [Root.GetHomeWorldName] and [From.GetHomeWorldName]."
-
- SS_VASSAL_GREETING_DISLOYAL_01:0 "The negative influence of [From.GetAdj] dominion on the spiritual well-being of the [From.GetAdj] people is unquestionable. How much longer must we suffer this?"
-
- 01_DOW_PROPOSE:0 "This is a declaration of war! For too long, [Root.GetAdj] aggression has terrorized the galaxy!"
-
- 03_MAKE_RIVAL_NEUTRAL:0 "We did not believe the rumors of [From.GetAdj] duplicity. Perhaps we should have."
-
- 01_INTEGRATE_ACCEPT_HOSTILE:0 "As much as it pains us to accept [From.GetAdj] hegemony, we will."
-
- 01_INTEGRATE_ACCEPT_DISMISSIVE:0 "We might accept [From.GetAdj] rule, for a time."
-
- 01_CANCEL_INTEGRATE_ACCEPT_ANGRY:0 "Indecision and weakness are not admirable traits, [From.GetAdj] fool."
-
- HM_PEACE_REFUSE:0 "There can be no peace. Each [Root.GetAdj] mind still burns with dedication to destroy [From.GetName]."
-
- HM_END_RIVALRY_ACCEPT_FRIENDLY:0 "The [Root.GetName] feels joy today, as our [From.GetAdj] friends have finally cleared the air."
 
  01_FORM_MIGRATION_PACT_PROPOSE:0 "The [Root.GetAdj] people should not be prisoners in the [Root.GetName] and neither should our own people be limited to inhabit our territory. Let us agree to remedy this."
 

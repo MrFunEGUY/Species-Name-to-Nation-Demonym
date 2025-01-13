@@ -1,5 +1,4 @@
 ﻿l_english:
-
  fleet3redealdesc2:0 "We shall not return to [Root.GetAdj] space for quite some time. You would not want to be left without."
 
  DEMAND_SUBS_REFUSE_01:0 "The [Root.GetName] will under no circumstances be a willing subject to [From.GetAdj] exploitation."

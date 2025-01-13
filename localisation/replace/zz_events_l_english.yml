@@ -1,5 +1,4 @@
 ﻿l_english:
-
  action.37.desc.xi:4 "We are forced to surrender, but don't think we will forget how callously you took [This.GetAdj] lives! This is exactly what we expected from your kind."
 
  action.37.desc.sd:2 "Our assumptions about [Root.GetAdj] weakness may have been hasty. As a token of our new experience, we accept your demands."
@@ -16,10 +15,6 @@
 
  precursor.314.desc:0 "Greetings, [Root.GetAdj] friends.\n\nA recent [artifact_giver.GetAdj] archaeological expedition on one of our planets uncovered several artifacts believed to have originated in the ancient [Root.GetPrecursorCiv] Precursor civilization.\n\nThe artifacts are currently being displayed in a museum on [artifact_giver.Capital.GetName], but in honor of the friendship between our two great empires, the [artifact_giver.GetName] would like to donate one of the pieces to the [Root.GetName]. Arrangements have already been made to transport the artifact to [Root.Capital.GetName]."
 
- observation.3139.name:0 "[From.GetAdj] Societal Shift"
-
  crisis.2192.desc:2 "In the years since the invention of sapient synthetic workers, we have struggled to balance their capacity for independent thought with the need to keep them tightly controlled. Now, top [Root.GetAdj] engineers have perfected a three-law algorithm which, if implemented, would allow continued and worry-free use of Synths under conditions that many would deem unacceptable for organics."
 
  diplomatic.13.desc:0 "Your science ships have been reported for suspicious activity in our space. There are rumors that you have been studying our genetic makeup, looking for information which could be used to find weaknesses or manufacture bio-weapons. We cannot expose the [From.GetAdj] people to such a risk."
-
- diplomatic.15.desc:0 "The [Root.GetName] tries not to let spiritual concerns stand in the way of our exploration and examination of the mundane, but we know how to pay proper heed to metaphysical insights and traditions in the course of all actions. Scientists from [From.From.GetName] appear to be a bit more careless in their pursuit of new astronomic discoveries.\n\nAfter taking an interest in some of the nearby stars that form constellations crucial to [Root.GetAdj] mythology, [encroaching_research_leader.GetName] has been accused of trying to "disprove" some of the legends surrounding them. While we are confident that the spiritual significance of the constellations can hardly be touched by worldly discoveries, many have objected to the research and tried to persuade [encroaching_research_leader.GetHimHer] to leave [Root.GetAdj] space."

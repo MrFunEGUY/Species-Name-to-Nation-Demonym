@@ -3,5 +3,5 @@ tags={
 	"Species"
 }
 name="Species Name to Nation Demonym"
-supported_version="3.5.*"
+supported_version="v3.14.*"
 remote_file_id="2181441455"
