@@ -45,7 +45,7 @@ l_english:
  mem_lost_emperor.4.F.action:0 "Whatever."
  mem_lost_emperor.4.F.tooltip:0 "We continue to investigate, in spite of the object's warnings."
  mem_lost_emperor.4.G.action:0 "Very well. We will desist."
- mem_lost_emperor.4.H.action:0 "(Lie) Very well. We will desist."
+ mem_lost_emperor.4.H.action:0 "§RLie§! - Very well. We will desist."
  mem_lost_emperor.4.H.action.tooltip:0 "We will return with military backing."
 
  mem_lost_emperor_military_investigate:0 "Investigate the Capsule with Force"

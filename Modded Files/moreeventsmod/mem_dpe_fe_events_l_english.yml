@@ -72,7 +72,7 @@ mem_leader_die_soon:0 "[root.GetRulerTitle] [root.GetRulerName] will die soon."
  mem_fe.22.B:0 "We will return [mem_escaped_scientist.GetHimHer] and [mem_escaped_scientist.GetHisHer] cache to you."
  mem_fe.22.B.tooltip:0 "[mem_escaped_scientist.GetName] is removed from the leader pool."
  mem_fe.22.B.response:0 "You have made the right choice, [root.GetAdj]."
- mem_fe.22.C:0 "(Lie) We will return [mem_escaped_scientist.GetHimHer] to you. But what cache?"
+ mem_fe.22.C:0 "§RLie§! - We will return [mem_escaped_scientist.GetHimHer] to you. But what cache?"
  mem_fe.22.C.tooltip:0 "$mem_fe.22.B.tooltip$ The [root.GetName] will secretly seize [mem_escaped_scientist.GetName]'s cache of technologies:"
  mem_fe.22.C.response:0 "Be careful, [root.GetAdj]. You are playing with fire."
  
